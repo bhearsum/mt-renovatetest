@@ -1,3 +1,10 @@
+// This renovatebot configuration is intended to serve all Mozilla Release Engineering
+// repositories. Depending on the repo it is placed in, some sections may do nothing (eg:
+// repos without JS code). Nevertheless, it's preferable to have One True Config that we
+// can easily copy/paste everywhere.
+//
+// The source of truth for this configuration is in XXXXXX. This repository also contains
+// a list of all of the places it should be copied when updated.
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
